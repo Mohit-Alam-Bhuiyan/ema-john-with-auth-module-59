@@ -1,18 +1,20 @@
-.header {
+.header{
     height: 80px;
-    background-color: #1C2B35;;
+    background-color: #1C2B35;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
-nav.header a{
-    text-decoration: none;
+.header a{
     color: #FFFFFF;
-    margin-left: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
 }
-nav.header a:hover{
+
+.header a:hover{
     color: orange;
 }
